@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    font-family: "Papyrus";
+
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+
+}
+
+.page {
+    height: 18vh;
+    background-color: bisque;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+    padding: 2em;
+}
+
+.quizform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.question{
+    margin-bottom: 1.Sem;
+}
